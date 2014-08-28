@@ -141,6 +141,13 @@ li>a {
 li>a * {
     pointer-events: none;
 }
+
+li>a.tappable-active {
+    color: #fff;
+    background-color: #4286f5;
+}
+
+
 .scroll {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
